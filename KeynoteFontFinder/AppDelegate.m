@@ -17,6 +17,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   // Insert code here to initialize your application
+    //mdls -name kMDItemFonts Teaching\ a\ Code\ School\ Course.key/
+    
+    NSTask *task = [[NSTask alloc] init];
+    task.launchPath = @"/usr/bin/mdls";
+//    task.arguments = @[@"name", @"kMDItemFonts"];
+//    task.standardOutput = pipe;
+    [task launch];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

@@ -12,6 +12,7 @@
 		ABB191191A12F39800548DF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB191181A12F39800548DF9 /* Images.xcassets */; };
 		ABB1911C1A12F39800548DF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB1911A1A12F39800548DF9 /* MainMenu.xib */; };
 		ABB191281A12F39800548DF9 /* KeynoteFontFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB191271A12F39800548DF9 /* KeynoteFontFinderTests.m */; };
+		ABB191331A12F3BD00548DF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB191321A12F3BD00548DF9 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		ABB191211A12F39800548DF9 /* KeynoteFontFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeynoteFontFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB191261A12F39800548DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB191271A12F39800548DF9 /* KeynoteFontFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeynoteFontFinderTests.m; sourceTree = "<group>"; };
+		ABB191311A12F3BD00548DF9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ABB191321A12F3BD00548DF9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				ABB191181A12F39800548DF9 /* Images.xcassets */,
 				ABB1911A1A12F39800548DF9 /* MainMenu.xib */,
 				ABB191111A12F39800548DF9 /* Supporting Files */,
+				ABB191311A12F3BD00548DF9 /* MainViewController.h */,
+				ABB191321A12F3BD00548DF9 /* MainViewController.m */,
 			);
 			path = KeynoteFontFinder;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB191171A12F39800548DF9 /* main.m in Sources */,
+				ABB191331A12F3BD00548DF9 /* MainViewController.m in Sources */,
 				ABB191151A12F39800548DF9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
